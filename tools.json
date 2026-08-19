@@ -1,0 +1,179 @@
+{
+  "github": "https://github.com/lee82638494995-web/tool-installation-package",
+  "package_repo": "https://github.com/lee82638494995-web/tool",
+  "package_branch": "main",
+  "categories": [
+    {
+      "id": "通用",
+      "name": "通用",
+      "icon": "⚙"
+    },
+    {
+      "id": "Java",
+      "name": "Java",
+      "icon": "☕"
+    },
+    {
+      "id": "Python",
+      "name": "Python",
+      "icon": "🐍"
+    },
+    {
+      "id": "数据库",
+      "name": "数据库",
+      "icon": "🗄"
+    },
+    {
+      "id": "前端",
+      "name": "前端",
+      "icon": "⌨"
+    },
+    {
+      "id": "其他",
+      "name": "其他",
+      "icon": "📦"
+    }
+  ],
+  "tools": [
+    {
+      "id": "git",
+      "name": "Git",
+      "desc": "代码版本管理，推送到 GitHub 需要它",
+      "kind": "winget",
+      "winget_id": "Git.Git",
+      "detect_commands": [
+        "git"
+      ],
+      "github_dir": "Git",
+      "group": "通用"
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code",
+      "desc": "代码编辑器",
+      "kind": "winget",
+      "winget_id": "Microsoft.VisualStudioCode",
+      "detect_commands": [
+        "code"
+      ],
+      "github_dir": "VSCode",
+      "group": "前端"
+    },
+    {
+      "id": "jdk17",
+      "name": "JDK",
+      "desc": "默认安装 JDK 1.8，也可选其他 Temurin 版本",
+      "kind": "winget",
+      "winget_id": "EclipseAdoptium.Temurin.8.JDK",
+      "detect_commands": [
+        "java",
+        "javac"
+      ],
+      "github_dir": "Java",
+      "group": "Java",
+      "version_packages": [
+        {
+          "label": "JDK 1.8",
+          "winget_id": "EclipseAdoptium.Temurin.8.JDK"
+        },
+        {
+          "label": "JDK 11 LTS",
+          "winget_id": "EclipseAdoptium.Temurin.11.JDK"
+        },
+        {
+          "label": "JDK 17 LTS",
+          "winget_id": "EclipseAdoptium.Temurin.17.JDK"
+        },
+        {
+          "label": "JDK 21 LTS",
+          "winget_id": "EclipseAdoptium.Temurin.21.JDK"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "desc": "选择要安装的 Python 大版本",
+      "kind": "winget",
+      "winget_id": "Python.Python.3.12",
+      "detect_commands": [
+        "python",
+        "py"
+      ],
+      "github_dir": "Python",
+      "group": "Python",
+      "version_packages": [
+        {
+          "label": "Python 3.13",
+          "winget_id": "Python.Python.3.13"
+        },
+        {
+          "label": "Python 3.12",
+          "winget_id": "Python.Python.3.12"
+        },
+        {
+          "label": "Python 3.11",
+          "winget_id": "Python.Python.3.11"
+        },
+        {
+          "label": "Python 3.10",
+          "winget_id": "Python.Python.3.10"
+        }
+      ]
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "desc": "关系型数据库",
+      "kind": "winget",
+      "winget_id": "Oracle.MySQL",
+      "detect_commands": [
+        "mysql"
+      ],
+      "detect_paths": [
+        "C:\\Program Files\\MySQL",
+        "C:\\java\\tools\\mysql"
+      ],
+      "github_dir": "MySQL",
+      "group": "数据库"
+    },
+    {
+      "id": "dbx",
+      "name": "DBX",
+      "desc": "数据库管理工具",
+      "kind": "installer",
+      "github_dir": "Database",
+      "file": "DBX_0.5.83_x64-setup.exe",
+      "args": [
+        "/VERYSILENT",
+        "/NORESTART"
+      ],
+      "detect_commands": [
+        "dbx"
+      ],
+      "detect_names": [
+        "DBX"
+      ],
+      "detect_exes": [
+        "dbx.exe"
+      ],
+      "detect_paths": [
+        "%LOCALAPPDATA%\\dbx",
+        "%LOCALAPPDATA%\\Programs\\dbx",
+        "%LOCALAPPDATA%\\Programs\\DBX",
+        "C:\\Program Files\\DBX",
+        "C:\\Program Files (x86)\\DBX",
+        "C:\\java\\tools\\dbx"
+      ],
+      "group": "数据库"
+    },
+    {
+      "id": "nvm",
+      "name": "Node.js",
+      "desc": "通过 NVM 安装并切换 Node.js 版本",
+      "kind": "nvm",
+      "github_dir": "Node",
+      "group": "前端"
+    }
+  ]
+}
