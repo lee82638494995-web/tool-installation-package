@@ -50,7 +50,12 @@
         "git"
       ],
       "github_dir": "Git",
-      "group": "通用"
+      "group": "通用",
+      "icon": "GI",
+      "url": "",
+      "check_cmd": "git --version",
+      "official": true,
+      "official_url": "https://cursor.com/cn"
     },
     {
       "id": "vscode",
