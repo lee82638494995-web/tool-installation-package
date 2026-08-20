@@ -186,14 +186,15 @@
       "icon": "Cur",
       "desc": "AI开发软件",
       "group": "ai",
-      "url": "https://cursor.com/cn",
+      "url": "",
       "github_dir": "Cursor",
       "check_cmd": "cursor --version",
       "detect_commands": [
         "cursor"
       ],
       "official": true,
-      "kind": "url"
+      "kind": "url",
+      "official_url": "https://cursor.com/cn"
     },
     {
       "name": "Clash.Verge_2.5.1_x64-setup",
