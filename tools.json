@@ -194,6 +194,20 @@
       ],
       "official": true,
       "kind": "url"
+    },
+    {
+      "name": "Clash.Verge_2.5.1_x64-setup",
+      "file": "Clash.Verge_2.5.1_x64-setup.exe",
+      "github_dir": "Other",
+      "url": "https://github.com/lee82638494995-web/tool/blob/main/Other/Clash.Verge_2.5.1_x64-setup.exe",
+      "kind": "url",
+      "desc": "仓库文件：Other/Clash.Verge_2.5.1_x64-setup.exe",
+      "id": "clash-verge-2-5-1-x64-setup",
+      "icon": "CL",
+      "group": "通用",
+      "check_cmd": "",
+      "detect_commands": [],
+      "official": false
     }
   ]
 }
