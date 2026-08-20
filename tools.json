@@ -183,7 +183,7 @@
     {
       "id": "cursor",
       "name": "Cursor",
-      "icon": "",
+      "icon": "Cur",
       "desc": "AI开发软件",
       "group": "ai",
       "url": "https://cursor.com/cn",
