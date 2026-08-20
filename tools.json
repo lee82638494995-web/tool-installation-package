@@ -187,7 +187,7 @@
       "desc": "AI开发软件",
       "group": "ai",
       "url": "https://cursor.com/cn",
-      "github_dir": "",
+      "github_dir": "Cursor",
       "check_cmd": "cursor --version",
       "detect_commands": [
         "cursor"
