@@ -179,6 +179,21 @@
       "kind": "nvm",
       "github_dir": "Node",
       "group": "前端"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "icon": "",
+      "desc": "AI开发软件",
+      "group": "ai",
+      "url": "https://cursor.com/cn",
+      "github_dir": "",
+      "check_cmd": "cursor --version",
+      "detect_commands": [
+        "cursor"
+      ],
+      "official": true,
+      "kind": "url"
     }
   ]
 }
